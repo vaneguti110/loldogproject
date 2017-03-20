@@ -10,14 +10,6 @@
 
 //lolcatButton = addEventListener('click', Button);
 
-//var lolcat = document.getElementById("lolcatButton");
-//var image = "http://www.lolcats.com/popular/22534.html";
-//var Button = function()
-//{
-// lolcatImage.src = image;
-//}
-//lolcat = addEventListener('click', Button);
-
 //query command shorter expression of javacript
 $(document).ready(function() {
    //var lolcatButton = document.getElementById("lolcatButton");
@@ -31,3 +23,14 @@ $(document).ready(function() {
    $("#lolcatButton").click(showMeTheLolcat);
 
 });
+//to prompt message when you click on show the lolcatbutton
+var text;
+var question = prompt("Do you really want to see the LOLCat?");
+switch(question) {
+    case "OK":
+        text = "Excellent choice!";  
+    break;
+    case "Cancel":
+        text = "Ok, but why did you click on it!";
+    break;
+}
