@@ -5,4 +5,4 @@ using html, css, javascript, jsquery and images
 
 using html, css, jsquery, images, prompt
 
-(https://jsbin.com/zisikeqano/1)
+(https://jsbin.com/gipanaheda/1)
